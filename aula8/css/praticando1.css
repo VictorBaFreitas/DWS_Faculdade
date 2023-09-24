@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+    background-color: aquamarine;
+}
+
+section#conteudo1 {
+    background-color: white;
+    border: 1vh solid black;
+    width: 65%;
+    font-size: 2vw;
+    padding: 1vh;
+    margin-bottom: 3vh;
+}
+
+section#conteudo1 h1 {
+    text-align: center;
+}
+
+section#conteudo1 p {
+    text-align: justify;
+}
+
+section#conteudo2 {
+    background-color: white;
+    border: 6px solid black;
+    font-size: 14pt;
+    width: 620px;
+}

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 15px;
+    background-color: aquamarine;
+    background-image: url("../images/trollface.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-attachment: fixed;
+    background-size: 40vw;
+}
+
+section h2, p{
+    margin-top: 1vh;
+    padding: 1vh;
+}
+
+section#sec1 {
+    background-color: tomato;
+}
+
+section#sec2 {
+    color: blue;
+    background-image: url("../images/trollface.png");
+    background-size: 60px;
+}
+
+section#sec3 {
+    background-color: rgba(0, 200, 0, 0.1);
+}

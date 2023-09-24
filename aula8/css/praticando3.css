@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#conteudo {
+    background-color: lightblue;
+    border-bottom: 14px solid salmon;
+    border-right: 36px solid salmon;
+    margin-bottom: 3vh;
+    text-indent: 30px;
+}
+
+figure {
+    border: 25px dotted darkmagenta;
+}
+
+img {
+    border: 20px double magenta;
+}

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+.s1{
+    background-color: lightgreen;
+}
+
+.s2{
+    background-color: lightblue;
+}
+
+h2 {
+    text-decoration: underline;
+    text-indent: 50px;
+}
+
+.p1 {
+    background-color: white;
+}
+
+.p2 {
+    color: blue;
+}
+
+.p3 {
+    color: red;
+}
+
+.p4 {
+    color: yellow;
+}
+
+.p5 {
+    text-align: left;
+}
+
+.p6 {
+    text-align: center;
+}
+
+.p7 {
+    text-align: right;
+}
+
+.p8 {
+    text-align: justify;
+}
+
+.p9 {
+    text-decoration: line-through;
+}
+
+.p10 {
+    text-decoration: underline;
+}
+
+.p11 {
+    text-transform: capitalize;
+}
+
+.p12 {
+    text-transform: uppercase;
+}
+
+.p13 {
+    text-indent: 50px;
+}
+
+.p14 {
+    text-indent: 100px;
+}
+
+.p15 {
+    line-height: 1.2;
+}
+
+.p16 {
+    line-height: 1.6;
+}
+
+.p17 {
+    line-height: 2.0;
+}
+.p18{
+    font-family: 'Courier New', Courier, monospace;
+}
+.p19{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p20{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p21{
+    font-style: italic;
+}
+.p22{
+    font-weight: bold;
+}
+.p23{
+    font-size: 20px;
+}
+.p24{
+    font-size: 30px;
+}
+.p25{
+    font-size: 40px;
+}

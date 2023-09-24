@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabelas</title>
+    <style>
+      body {
+        background-color: aquamarine;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      table,
+      td {
+        border: solid 1px black;
+      }
+
+      td {
+        padding: 30px 60px;
+        text-align: center;
+      }
+
+      .fonte_branca {
+        color: white;
+      }
+
+      .fonte_preta {
+        color: black;
+      }
+
+      .back_green {
+        background-color: green;
+      }
+
+      .back_lightgreen {
+        background-color: lightgreen;
+      }
+
+      .back_black {
+        background-color: black;
+      }
+
+      .back_gray {
+        background-color: gray;
+      }
+
+      .back_lightgray {
+        background-color: lightgray;
+      }
+
+      .back_red {
+        background-color: red;
+      }
+
+      .back_blue {
+        background-color: blue;
+      }
+
+      .back_yellow {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Praticando -- Tabelas</h1>
+    <h2>Tabela 2x1</h2>
+    <table>
+      <tr>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Tabela 3x2</h2>
+    <table>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Tabela 2x4</h2>
+    <table>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Tabela Colspan</h2>
+    <table>
+      <tr>
+        <td colspan="3">Colspan</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Tabela com Rowspan</h2>
+    <table>
+      <tr>
+        <td>Loren Impsum</td>
+        <td rowspan="3">Rowspan</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Tabela com Rowspan e Colspan</h2>
+    <table>
+      <tr>
+        <td colspan="2">Colspan</td>
+        <td>Loren Impsum</td>
+        <td rowspan="3">Rowspan</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td colspan="2">Colspan</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Praticando com CSS</h2>
+    <h2>Estilo 1</h2>
+    <table class="border_white">
+      <tr class="fonte_preta back_green">
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr class="fonte_preta back_lightgreen">
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr class="fonte_preta back_lightgreen">
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Estilo 2</h2>
+    <table class="fonte_branca back_black">
+      <tr class="back_gray">
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr class="back_lightgray">
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+      <tr class="back_lightgray">
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+        <td>Loren Impsum</td>
+      </tr>
+    </table>
+    <h2>Estilo 3</h2>
+    <h2></h2>
+    <table>
+      <caption>
+        Tabela com Rowspan e Colspan
+      </caption>
+      <thead>
+        <tr class="back_green">
+          <td colspan="2">Colspan</td>
+          <td>Loren Impsum</td>
+          <td rowspan="3">Rowspan</td>
+        </tr>
+        <tr class="back_red">
+          <td>Loren Impsum</td>
+          <td>Loren Impsum</td>
+          <td>Loren Impsum</td>
+        </tr>
+        <tr class="back_blue">
+          <td>Loren Impsum</td>
+          <td colspan="2">Colspan</td>
+        </tr>
+        <tr class="back_yellow">
+          <td>Loren Impsum</td>
+          <td>Loren Impsum</td>
+          <td>Loren Impsum</td>
+          <td>Loren Impsum</td>
+        </tr>
+      </thead>
+    </table>
+    <table>
+      <caption>
+        Legenda
+      </caption>
+      <thead>
+        <tr>
+          <td>Linha 1</td>
+          <td style="background-color: green;">---------</td>
+          <td>Green</td>
+        </tr>
+        <tr>
+          <td>Linha 2</td>
+          <td style="background-color: red;">---------</td>
+          <td>Red</td>
+        </tr>
+        <tr>
+          <td>Linha 3</td>
+          <td style="background-color: blue;">---------</td>
+          <td>Blue</td>
+        </tr>
+        <tr>
+          <td>Linha 4</td>
+          <td style="background-color: yellow;">---------</td>
+          <td>Yellow</td>
+        </tr>
+      </thead>
+    </table>
+    <br />
+    <a href="../html/main.html">Voltar para principal</a>
+  </body>
+</html>

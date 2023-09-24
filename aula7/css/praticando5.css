@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.dv1 {
+    font-family: 'Mooli', serif;
+    background-color: cyan;
+}
+.dv2{
+    font-family: 'Croissant One, serif';
+    background-color: lightcoral;
+}
+.dv3{
+    font-family: 'Bebas Neue', serif;
+    background-color: lightgreen;
+}
+.dv4{
+    font-family: 'Fuggles', serif;
+    background-color: lightgray;
+}
+.dv5{
+    font-family: 'Black Ops One', serif;
+    background-color: lightsalmon;
+}

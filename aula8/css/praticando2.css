@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Play&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Lobster', sans-serif;
+}
+
+h1 {
+    font-size: 60pt;
+}
+
+img {
+    padding: 5px;
+}
+
+.menor1 {
+    width: 15%;
+}
+
+.pequena1 {
+    width: 20%;
+}
+
+.grande1 {
+    width: 25%;
+}
+
+.maior1 {
+    width: 30%;
+}
+
+.menor2 {
+    width: 30%;
+}
+
+.pequena2 {
+    width: 25%;
+}
+
+.grande2 {
+    width: 20%;
+}
+
+.maior2 {
+    width: 15%;
+}
+
+section#conteudo1 {
+    text-align: start;
+    border-top: 10px solid darkblue;
+    border-bottom: 10px solid darkblue;
+    background-color: lightgreen;
+    margin-bottom: 3vh;
+    padding: 2vw;
+}
+
+section#conteudo2 {
+    text-align: end;
+    border-top: 10px solid orangered;
+    border-bottom: 10px solid orangered;
+    background-color: lightcoral;
+    margin-bottom: 5vh;
+    padding: 2vw;
+}

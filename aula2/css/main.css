@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
+header#topo h1 {
+    border-top: 2px solid white;
+    padding: 4vh;
+    text-align: center;
+    margin-top: 4vh;
+    font-size: 20pt;
+}
+
+nav.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav.container ul {
+    margin: 0vh 2vh auto 2vh;
+    display: flex;
+    gap: 20vh;
+    list-style: none;
+}
+
+nav.container ul > li > a {
+    font-size: 16pt;
+    padding: 0.8vh;
+}
+
+div.foto {
+    width: 50%;
+    margin: 10px auto 10px auto;
+}
+
+footer.rodape {
+    position: absolute;
+    bottom: 0;  
+    left: 30%;
+    margin: 2vh;
+}

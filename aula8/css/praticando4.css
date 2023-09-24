@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    margin: 2vw auto;
+    width: 1200px;
+    height: 300px;
+    background-color: gray;
+    border-bottom: 30px dashed black;
+}
+
+.mid {
+    margin: 2vw auto;
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    border: 10px solid blue;
+}
+
+.last {
+    border: 5px solid red;
+    border-radius: 50%  ;
+    width: 100px;
+    height: 100px;
+    background-color: lightyellow;
+    margin: 4vh auto;
+}

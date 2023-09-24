@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+table, tr, td{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.t1{
+    background-color: red;
+}
+
+.t2{
+    background-color: rgb(207, 29, 29);
+}
+
+.t3{
+    background-color: rgb(129, 7, 7);
+}
+
+.t4{
+    background-color: green;
+}
+
+.t5{
+    background-color: rgb(119, 226, 119);
+}
+
+.t6{
+    background-color: rgb(11, 70, 11);
+}
+
+.t7{
+    background-color: blue;
+}
+
+.t8{
+    background-color: #9191df;
+}
+
+.t9{
+    background-color: #000055;
+}
+
+body{
+    background-image: url("../images/ifsp.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+.img{
+    height: 40px;
+    width: 100%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd6GfHHKkFetBrtx30H0IGk5mrzc8CfXXD-w&usqp=CAU");
+    position: absolute;
+    bottom: 0;
+    background-size: cover;
+    background-size: 30px;
+}
