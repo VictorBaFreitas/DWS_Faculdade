@@ -1,0 +1,24 @@
+:root {
+    --float: right;
+}
+
+h1, img, p {
+    margin: 2vw;
+}
+
+p {
+    text-align: justify;
+}
+
+.float1 {
+    float: var(--float);
+}
+
+.float2 {
+    --float: left;
+    float: var(--float);
+}
+
+.none {
+    clear: both;
+}

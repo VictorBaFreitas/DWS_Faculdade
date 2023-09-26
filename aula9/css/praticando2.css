@@ -1,0 +1,41 @@
+:root {
+    --color: green;
+    --tam: 8%;
+    --altura: 8vw;
+    --margin-elem: 2vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 3vh;
+}
+
+.first {
+    margin: var(--margin-elem);
+    float: right;
+    width: var(--tam);
+    height: var(--altura);
+    background-color: var(--color);
+}
+
+.second {
+    --tam: 30%;
+    margin: var(--margin-elem);
+    float: left;
+    width: var(--tam);
+    height: var(--altura);
+    background-color: var(--color);
+}
+
+.third {
+    --altura: 24vw;
+    margin: var(--margin-elem);
+    width: var(--tam);
+    float: right;
+    height: var(--altura);
+    background-color: var(--color);
+}
