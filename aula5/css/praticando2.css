@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+:root {
+    --background: rgb(255, 0, 0);
+}
+
+.father {
+    --background: rgb(100, 200, 100);
+    background-color: var(--background);
+}
+
+.first {
+    --background: rgb(0, 255, 0);
+    background-color: var(--background);
+}
+
+.second {
+    --background: rgb(10, 70, 10);
+    background-color: var(--background);
+}
+
