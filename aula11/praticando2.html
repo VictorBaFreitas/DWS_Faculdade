@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Praticando 2</title>
+  </head>
+  <style>
+    body {
+      background: linear-gradient(90deg, #869, #00ffff);
+      height: 90vh;
+    }
+
+    header {
+      text-align: center;
+      font-size: 19pt;
+    }
+
+    section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    label,
+    input,
+    textarea,
+    select,
+    p {
+      font-size: 17pt;
+      margin: 0.3vw;
+      padding: 0.6vw;
+    }
+
+    #login {
+      display: flex;
+      flex-direction: column;
+    }
+
+    i {
+      font-size: 4vw;
+    }
+
+    .fa-html5 {
+      color: orangered;
+    }
+
+    .fa-css3 {
+      color: blue;
+    }
+
+    .fa-js {
+      color: yellow;
+    }
+
+    #second-box {
+      margin: 1.8vw;
+    }
+
+    .filmes {
+      margin: 1vw;
+    }
+
+    button {
+      font-size: 18pt;
+      padding: 0.5vw;
+      margin: 1.5vw;
+    }
+
+    #button {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Praticando 2 - Formulário Estilizado</h1>
+    </header>
+    <main>
+      <section>
+        <form action="" method="post">
+          <div id="login">
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Informe seu nome"
+            />
+
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Informe seu email"
+            />
+
+            <label for="carro">Marca do Carro:</label>
+            <select name="carro" id="carro">
+              <option value="chevrolet">Chevrolet</option>
+              <option value="fiat">Fiat</option>
+              <option value="ford">Ford</option>
+              <option value="volkswagen">Volkswagen</option>
+            </select>
+
+            <label for="observacao">Observação:</label>
+            <textarea
+              name="observacao"
+              id="observacao"
+              cols="30"
+              rows="1"
+              placeholder="Deixe aqui sua observação"
+            ></textarea>
+          </div>
+          <div id="second-box">
+            <label for="linguagem">Linguagem Favorita:</label>
+            <input type="radio" name="linguagem" id="html" />
+            <label for="html">HTML <i class="fab fa-html5"></i></label>
+            <input type="radio" name="linguagem" id="css" />
+            <label for="css">CSS <i class="fab fa-css3"></i></label>
+            <input type="radio" name="linguagem" id="javascript" />
+            <label for="javascript">JavaScript <i class="fab fa-js"></i></label>
+          </div>
+          <div class="filmes">
+            <p>Filmes que eu quero ver quando lançar:</p>
+
+            <input type="checkbox" name="filme" id="avengers" />
+            <label for="avengers"
+              ><a href="#">Avengers: The Kang Dynasty</a></label
+            >
+            <input type="checkbox" name="filme" id="aquaman" />
+            <label for="aquaman"
+              ><a href="#">Aquaman 2: O Reino Perdido</a></label
+            >
+            <input type="checkbox" name="filme" id="marvels" />
+            <label for="marvels"><a href="#">The Marvels</a></label>
+            <input type="checkbox" name="filme" id="deadpool" />
+            <label for="deadpool"><a href="#">Deadpool 3</a></label>
+          </div>
+          <div id="button">
+            <button type="submit" value="Enviar">Enviar</button>
+            <button type="reset" value="Limpar">Limpar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
